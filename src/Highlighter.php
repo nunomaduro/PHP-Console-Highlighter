@@ -93,6 +93,14 @@ class Highlighter
     }
 
     /**
+     * @return \JakubOnderka\PhpConsoleColor\ConsoleColor
+     */
+    public function getColor()
+    {
+        return $this->color;
+    }
+
+    /**
      * @param string $source
      * @return array
      */
